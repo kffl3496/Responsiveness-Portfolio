@@ -1,0 +1,74 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px;
+    color: black;
+}
+
+h4 {
+    color: darkturquoise;
+}
+
+.body-div {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border: 1px solid #c0c0c0;
+    background-color: grey;
+
+}
+
+.white-box {
+    background-color: white;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+.mynav {
+    background-color: darkturquoise;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 540px) {
+    .mynav {
+        width: 100%;
+    }
+
+    .links {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(44, 44, 44);
+}
+
+.green-top {
+    width: 100%;
+    height: 10px;
+    background-color: darkturquoise;
+}
+
+.darkturquoise {
+    background-color: darkturquoise;
+}
+
+.my-image {
+    height: auto;
+    /* max-width: 200%; */
+    width: 200px;
+    text-align: center;
+    
+
+}
